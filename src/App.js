@@ -1,4 +1,7 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Character from './pages/Character';
 
 import React from "react";
 import {
@@ -32,10 +35,6 @@ function App() {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  <div>return <h2>Home</h2></div>;
 }
 
 export default App;
